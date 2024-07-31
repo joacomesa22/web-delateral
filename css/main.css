@@ -489,14 +489,17 @@ mark {
 }
 
 .donde-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #fff;
   padding-top: 300px;
   padding-bottom: 100px;
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.donde-section_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .donde-section_container {
@@ -1634,7 +1637,7 @@ input::-moz-focus-inner {
     flex-wrap: wrap;
   }
 
-  .donde-section {
+  .donde-section_wrapper {
     flex-wrap: wrap;
   }
 
