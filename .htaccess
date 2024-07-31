@@ -1,0 +1,31 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^delateral\.com\.ar$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.delateral\.com\.ar$
+RewriteRule ^admin$ "https\:\/\/docs\.google\.com\/document\/d\/1WP0hkzL8OIuO0EzBZn2Rq\-XXT4UYRwh3WEuZnMXlW\-Q\/edit" [R=301,L]
+RewriteCond %{HTTP_HOST} ^delateral\.com\.ar$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.delateral\.com\.ar$
+RewriteRule ^wadiamond$ "https\:\/\/sites\.google\.com\/delateral\.com\.ar\/wadiamond\/página\-principal" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^gruposg$ "https\:\/\/sites\.google\.com\/delateral\.com\.ar\/gruposg" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^eutopia$ "https\:\/\/sites\.google\.com\/delateral\.com\.ar\/eutopa\-delateral\/página\-principal" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^comunyt$ "https\:\/\/sites\.google\.com\/delateral\.com\.ar\/comunytdelateral" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^globant$ "https\:\/\/sites\.google\.com\/delateral\.com\.ar\/globant\-delateral\/home" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^avanza$ "https\:\/\/sites\.google\.com\/delateral\.com\.ar\/avanza\/home" [R=301,L]
+RewriteCond %{HTTP_HOST} ^delateral\.com\.ar$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.delateral\.com\.ar$
+RewriteRule ^mday$ "https\:\/\/sites\.google\.com\/delateral\.com\.ar\/grupo\-mday\-delateral" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^latamenusa$ "https\:\/\/sites\.google\.com\/delateral\.com\.ar\/latamenusa" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^panel$ "https\:\/\/sites\.google\.com\/delateral\.com\.ar\/panel" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^gewin$ "https\:\/\/sites\.google\.com\/delateral\.com\.ar\/gewindelateral" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^eu$ "https\:\/\/sites\.google\.com\/delateral\.com\.ar\/euba" [R=301,L]
