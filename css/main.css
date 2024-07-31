@@ -1537,8 +1537,8 @@ input::-moz-focus-inner {
   letter-spacing: 0;
   color: #ffffff;
   letter-spacing: -0.30rem;
-  margin-top: 4.8;
-  margin-bottom: 4.8rem;
+  margin-top: 20px;
+  margin-bottom: 4rem;
   font-style: normal;
 }
 
