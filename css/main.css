@@ -2444,6 +2444,7 @@ input::-moz-focus-inner {
 .home-scroll {
   height: 4.8rem;
   position: absolute;
+  z-index: 2;
   right: 110px;
   bottom: 35%;
 }
@@ -2643,9 +2644,6 @@ html.no-csstransitions .home-content__main {
     font-size: 3.6rem;
   }
 
-  .home-content__main {
-    padding-top: 18rem;
-  }
 
   .home-sidelinks {
     font-size: 1.3rem;
